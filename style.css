@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #064588;
+    padding: 10px 8% 0 8%;
+}
+a{
+    color: white;
+   text-decoration:none ;
+   padding: 0 10px 0 10px;
+}
+a:hover{
+    color: red;
+}
+.nav{
+    padding: 10px 0 3px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.search img{
+    width: 20px;
+    margin: 10px 10px 0 0 ;
+}
+.search{
+    background-color: white;
+    border-bottom-style:solid ;
+    border-bottom-color: gold;
+}
+input[type="text"]{
+    border-style: none;
+    outline: none;
+    height: 30px;
+    width: 80px;
+}
+.search-area{
+    display: flex;
+    align-items: center;
+}
+span{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+/* footer css starts here */
+
+
+.container{
+    border-style: solid;
+    color: white;
+}
+.grey{
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15% 20px 15%  ;
+    
+    
+}
+li{
+    padding: 5px 0 5px 0;
+}
+.list{
+   margin: 0 0 15px 15px;
+}
+
+.black{
+    background-color: black;
+    padding: 40px 0 40px 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: red;
+}
+.news{
+    background-color: black;
+    width: fit-content;
+    padding: 5px 8px 5px 8px;
+
+}
+.copyrights,.footermenu,.icons{
+    width: fit-content;
+    margin: auto;
+}
+.footermenu{
+    padding: 10px 0px 10px 0px;
+}
+.footermenu a{
+    padding: 0px 6px 0 6px;
+}
+
+
+
+
